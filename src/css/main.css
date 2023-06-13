@@ -191,6 +191,23 @@ anything reusable such as buttons, navbars, cards etc.
   color: #4f81f3;
 }
 
+
+.btn__secondary {
+  color: #4f81f3;
+  border: 0.125rem solid #4f81f3;
+  background: #fff;
+  border-radius: 100rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn__secondary:hover {
+  background: #4f81f3;
+  color: #fff;
+}
+
 /* ***** Section Title ***** */
 .section__title {
   color: #0e2431;
@@ -227,6 +244,12 @@ header {
   font-size: 1.25rem;
   font-weight: 500;
   margin-bottom: 2rem;
+}
+
+.hero__btn {
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
 
 .hero__btn button {
