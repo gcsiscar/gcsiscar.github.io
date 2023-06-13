@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <title>Gilbert Christopher Siscar | Full Stack Web Developer</title>
+  </head>
+  <body>
+    <header>
+      <div class="container flex">
+        <h3 class="nav__logo">
+          <a href="#">Gilbert</a>
+        </h3>
+
+        <nav class="nav">
+          <input type="checkbox" id="toggle-menu" />
+          <div class="hamburger-menu">
+            <label for="toggle-menu">
+              <div>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </label>
+          </div>
+          <ul class="nav__menu">
+            <li class="nav__item active">
+              <a class="nav__link" href="#home">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#projects">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="hero" id="home">
+      <div class="container flex">
+        <div class="hero__text">
+          <h1>Hi, I'm Gilbert</h1>
+          <p>A Full Stack Developer based in the Philippines.</p>
+
+          <div class="hero__btn">
+            <a href="#contact"><button class="btn">Let's Talk</button></a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/gcsiscar" no-referrer target="_blank">
+              <i class="fa-brands fa-github fa-lg"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gcsiscar/"
+              no-referrer
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-stack-overflow fa-lg"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero__img">
+          <img src="./src/assets/images/hero-img.svg" alt="Hero Image" />
+        </div>
+      </div>
+    </main>
+
+    <section class="about" id="about">
+      <div class="container flex">
+        <div class="about__img">
+          <img src="./src/assets/images/hero-img4.svg" alt="About Me" />
+        </div>
+        <div>
+          <h3 class="section__sub-title">About Me</h3>
+          <h2 class="section__title">
+            A FullStack Developer based in the Philippines
+          </h2>
+          <p>
+            I have a passion for creating fast and beautiful web applications
+            using the latest technologies. I specialize in designing, building,
+            shipping, and scaling beautiful, usable products with blazing-fast
+            efficiency.<br />
+            Currently, I am working on a project called FinText - a progressive
+            web application for consolidated news reporting of a stock using a
+            Ethereum blockchain network.
+          </p>
+          <button class="btn">Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="techstack" id="techstack">
+      <div class="container flex">
+        <div>
+          <h3 class="section__sub-title">Techstack</h3>
+          <h2 class="section__title">Technologies I currently use</h2>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="projects" id="projects">
+      <div class="container flex flex-col">
+        <div>
+          <h3 class="section__sub-title">Projects</h3>
+          <h2 class="section__title">
+            Here are a few projects I've worked <br />
+            on recently
+          </h2>
+        </div>
+        <div class="showcase flex">
+          <div class="project-valorant">
+            <img src="./src/assets/images/Valorant.png" alt="" />
+          </div>
+          <div class="project-playstation">
+            <img src="./src/assets/images/Playstation-VR.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container flex flex-col">
+        <div>
+          <h3 class="section__sub-title">Contact</h3>
+          <h2 class="section__title">How can I help you today?</h2>
+        </div>
+        <form class="form">
+          <div class="name-email-group">
+            <div class="input-label-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" />
+            </div>
+            <div class="input-label-group">
+              <label for="email"> Email </label>
+              <input type="email" />
+            </div>
+          </div>
+          <div class="input-label-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5"></textarea>
+          </div>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div class="container flex">
+        <div>
+          <p>Handcrafted by me © 2021</p>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/gcsiscar" no-referrer target="_blank">
+            <i class="fa-brands fa-github fa-lg"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/gcsiscar/"
+            no-referrer
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin fa-lg"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-stack-overflow fa-lg"></i>
+          </a>
+          <!-- <a href="mailto:gilbertchristophersiscar@gmail.com"
+            ><i class="fas fa-envelope fa-lg"></i
+          ></a> -->
+        </div>
+      </div>
+    </footer>
+    <script src="./src/js/index.js" defer></script>
+  </body>
+</html>
