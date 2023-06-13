@@ -3,7 +3,7 @@ const sections = document.querySelectorAll('section, main');
 const headerHeight = document.querySelector('header').scrollHeight;
 let currentSection = '';
 let prevSection = '';
-const sectionOrder = ['home', 'about', 'projects', 'contact'];
+const sectionOrder = ['home', 'about', 'techstack', 'projects', 'contact'];
 
 window.addEventListener('scroll', (e) => {
   sections.forEach((section) => {
