@@ -246,6 +246,12 @@ header {
   margin-bottom: 2rem;
 }
 
+.hero__btn {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
 .hero__btn button {
   padding: 0.75em 2em;
   margin-bottom: 3.5rem;
