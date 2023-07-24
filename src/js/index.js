@@ -15,11 +15,6 @@ window.addEventListener('scroll', (e) => {
       if (prevSection !== currentSection) {
         const idx_prevSection = sectionOrder.indexOf(prevSection);
         const idx_currentSection = sectionOrder.indexOf(currentSection);
-        console.table({
-          idx_currentSection,
-          idx_prevSection,
-          difference: Math.abs(idx_currentSection - idx_prevSection),
-        });
         if (Math.abs(idx_prevSection - idx_currentSection) === 1) {
           navItems.forEach((item) => item.classList.remove('active'));
           const currentItem = document.querySelector(
@@ -32,12 +27,6 @@ window.addEventListener('scroll', (e) => {
     }
   });
 });
-// navItems.forEach((item) => {
-//   item.addEventListener('click', (e) => {
-//     navItems.forEach((item) => item.classList.remove('active'));
-//     e.currentTarget.classList.add('active');
-//   });
-// });
 
 // add scroll-padding to navbar
 const html = document.querySelector('html');
