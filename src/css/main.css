@@ -372,7 +372,7 @@ header {
 }
 
 @media screen and (max-width: 48em) {
-  div.container.flex:not(header > div.container.flex) {
+  div.container:not(header > div.container), .showcase {
     flex-direction: column;
   }
 }
