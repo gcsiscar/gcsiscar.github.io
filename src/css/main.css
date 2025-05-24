@@ -132,6 +132,7 @@ anything reusable such as buttons, navbars, cards etc.
 
 /* ***** Hamburger ***** */
 .hamburger-menu {
+  float: right;
   display: block;
 }
 
@@ -145,10 +146,13 @@ anything reusable such as buttons, navbars, cards etc.
   }
 }
 
+.hamburger-container {
+  width: 1.5rem;
+}
+
 .bar {
   background-color: #0e2431;
   display: block;
-  width: 1.5rem;
   padding: 0.1em;
   margin: 0.4rem auto;
   transition: all 0.3s ease-in-out;
