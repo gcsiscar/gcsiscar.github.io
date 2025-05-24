@@ -372,6 +372,12 @@ header {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 48em) {
+  div.container.flex:not(header > div.container.flex) {
+    flex-direction: column;
+  }
+}
+
 .flex {
   display: flex;
   align-items: center;
