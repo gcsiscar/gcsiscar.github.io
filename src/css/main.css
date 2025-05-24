@@ -231,7 +231,7 @@ contains all the CSS that handles the layout, such as the container and grid sys
 */
 header {
   background-color: #fff;
-  padding: 1.25em;
+  padding: 1.25em 0;
   position: sticky;
   top: 0;
   left: 0;
@@ -367,6 +367,7 @@ header {
 }
 
 .container {
+  padding: 0 min(1.25em, 8%);
   max-width: 1200px;
   margin: 0 auto;
 }
